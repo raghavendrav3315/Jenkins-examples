@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        docker{image 'node:16-alphine'}
+        docker{image 'ubuntu:resolute-20260106.1'}
     }
     stages {
         stage('Build') {
